@@ -1,5 +1,5 @@
 body{
-	background-image:url("../images/portfolio.jpg");
+	background-image:url("../images/back.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height:100%;
@@ -27,24 +27,23 @@ h2{
 
 h4{
 	font-size: 80px;
-  color: #e8665d;
-  margin: 600px;
-  padding-top: 600px;
+  color: #543524;
+  margin: 60px;
+  padding-top: 80px;
   text-align: center;
 }
 
 
 p{
-	color:#bdadac;
+	color:black;
 	font-size:50px;
 	text-align: center;
 	padding-top:20px;
 	}
 
 
-
 img 1{
-   display:flex;
+ 
   margin-left: auto;
   margin-right: auto;
   align:center;
@@ -129,7 +128,7 @@ img 8{
 }
 .btn: hover i{
   transform: scale(1.3);
-  color: #f1f1f1;
+  color: #a67053;
 }
 
 
@@ -153,12 +152,13 @@ nav ul li {
 nav ul {
   display: flex;
   padding-left: 450px;
-  font-color:#e47d7d
+  font-color:#e47d7d;
   border:#611e03;
   float:center;
   font-size: 50px;   
 }
 
 nav ul li a:hover{
-	background-color:#c24513;
+	background-color:#543524;
+	color:#e8665d;
 }
